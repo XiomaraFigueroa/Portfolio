@@ -66,7 +66,6 @@ const styles = {
         listStyle: 'none'
     },
     li:{
-        textAlign: 'center',
         border: '1px solid #9b1d20',
         borderRadius: '5px',
         margin: '1rem',

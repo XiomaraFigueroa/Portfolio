@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const Cards = props => {
     return(
-        <CardGroup style={{height: '100%', width: '30rem', backgroundColor:'purple'}} >
+        <CardGroup style={{height: '100%', width: '30rem'}} >
             <Card id={props.id}style={props.style}>
             <Card.Img variant="top" src={props.image}  />
             <Card.Body style={{marginLeft: '1rem'}} >

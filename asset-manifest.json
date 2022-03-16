@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.56e6221f.css",
-    "main.js": "/Portfolio/static/js/main.ea2bfd20.js",
+    "main.js": "/Portfolio/static/js/main.a44049c5.js",
     "static/js/787.b9ec5bb0.chunk.js": "/Portfolio/static/js/787.b9ec5bb0.chunk.js",
     "static/media/KLASH_Website.png": "/Portfolio/static/media/KLASH_Website.c72b89537b57daaba0f1.png",
     "static/media/Gallery.png": "/Portfolio/static/media/Gallery.30396bf5c959be0bf180.png",
@@ -32,11 +32,11 @@
     "static/media/US_Main.png": "/Portfolio/static/media/US_Main.6a091684c4d68d869199.png",
     "index.html": "/Portfolio/index.html",
     "main.56e6221f.css.map": "/Portfolio/static/css/main.56e6221f.css.map",
-    "main.ea2bfd20.js.map": "/Portfolio/static/js/main.ea2bfd20.js.map",
+    "main.a44049c5.js.map": "/Portfolio/static/js/main.a44049c5.js.map",
     "787.b9ec5bb0.chunk.js.map": "/Portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e6221f.css",
-    "static/js/main.ea2bfd20.js"
+    "static/js/main.a44049c5.js"
   ]
 }

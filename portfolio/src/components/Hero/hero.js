@@ -7,7 +7,7 @@ class Hero extends Component {
            
             <Container id='hero' style={styles.container} >
                     <h1 style={styles.h1} >Xiomara Figueroa</h1>
-                    <h2 style={styles.h2} >Full-Stack Web Developer</h2>
+                    <h2 style={styles.h2} >Front-end Web Developer</h2>
             </Container>
         )
     }

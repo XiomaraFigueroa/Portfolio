@@ -10,9 +10,8 @@ class Home extends Component {
 
     render(){
         return(
-            <Container  fluid>
-                <div style={styles.container} >
-
+            <Container style={styles.container }  fluid >
+                
                 
                 <Nav />
                 
@@ -28,7 +27,7 @@ class Home extends Component {
                 {/* Contact Section */}
                 <Contact />
                 
-                </div>
+            
                 
             </Container>
         )

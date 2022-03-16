@@ -12,11 +12,11 @@ class Projects extends Component{
   
         return(
             <Container id='projects' style={styles.container}>
-                <Row style={styles.row} >
-                    <h1 style={styles.projects} >PROJECTS</h1>
+                
+                    <h1 style={styles.h1} >PROJECTS</h1>
                     {/* This loops through all the projects that are in the data.js file and returns each project in a card. */}
                     {projects.map((project, i)=>{
-                        return <Row>
+                        return <Row style={styles.row}>
                             <Col md={12} lg={4}>
                             <Cards key={i} image={project.klash.image} title={project.klash.title} description={project.klash.description} href="/klash" to="klash" style={styles.cards} />
                             </Col>
@@ -26,8 +26,8 @@ class Projects extends Component{
                             <Col md={12} lg={4}>
                             <Cards key={i} image={project.tournApp.image} title={project.tournApp.title} description={project.tournApp.description} href="/tournApp" to="tournApp" style={styles.cards} />
                             </Col>
-                            </Row>})}
-                </Row>   
+                        </Row>})}
+                
         </Container>
             
         )
@@ -45,10 +45,9 @@ const styles = {
     },
     row: {
         display: 'flex',
-        justifyContent:'space-between'
-        
+        justifyContent:'space-between',
     },
-    projects: {
+  h1: {
         fontSize: '6.3rem',
         fontFamily: 'Avenir Heavy, helvetica, san-serif',
         color: '#eeeeee',
@@ -60,7 +59,8 @@ const styles = {
         boxShadow: '0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2)',
         fontFamily: 'Avenir Heavy, helvetica, san-serif',
         fontSize: '1.25rem',
-        padding: '1.5rem'
+        margin: '1rem',
+        
     },
     
 }
